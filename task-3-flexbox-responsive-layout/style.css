@@ -1,0 +1,87 @@
+/* Global settings */
+* {
+  box-sizing: border-box;
+}
+
+/* Page body style */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f3f4f6;
+  color: #333;
+}
+
+/* Header section */
+header {
+  background-color: #4338ca;
+  color: white;
+  text-align: center;
+  padding: 25px;   /* space inside header */
+}
+
+/* Navigation using Flexbox */
+nav ul {
+  display: flex;              /* enable flexbox */
+  justify-content: center;    /* center items horizontally */
+  align-items: center;        /* align items vertically */
+  flex-wrap: wrap;            /* move items to next line on small screens */
+
+  list-style: none;
+  margin: 0;
+  padding: 12px;
+  background-color: #e0e7ff;
+}
+
+/* Navigation list items */
+nav li {
+  margin: 8px 15px;           /* space between menu items */
+}
+
+/* Navigation links */
+nav a {
+  text-decoration: none;
+  font-weight: bold;
+  color: #1e1b4b;
+}
+
+/* All sections style */
+section {
+  background-color: #ffffff;
+  margin: 20px;               /* space outside section */
+  padding: 20px;              /* space inside section */
+  border: 1px solid #c7d2fe;
+  border-radius: 6px;
+}
+
+/* Skills list using Flexbox */
+#skills ul {
+  display: flex;              /* flexbox for skills */
+  justify-content: center;    /* center skills */
+  flex-wrap: wrap;            /* responsive layout */
+  list-style: none;
+  padding: 0;
+}
+
+/* Individual skill item */
+#skills li {
+  background-color: #e0e7ff;
+  margin: 6px;
+  padding: 8px 14px;
+  border-radius: 4px;
+}
+
+/* Profile image */
+img {
+  display: block;
+  margin-bottom: 10px;
+  border-radius: 6px;
+}
+
+/* Footer section */
+footer {
+  background-color: #4338ca;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  margin-top: 30px;
+}
